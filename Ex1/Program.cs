@@ -7,11 +7,11 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 
 if(number1 > number2)
 {
-Console.WriteLine($"Число {number1} больше чем {number2}");
-Console.WriteLine($"Число {number2} меньше чем {number2}");
+Console.WriteLine($"Число {number1} большее");
+Console.WriteLine($"Число {number2} меньшее");
 }
 else if(number1 < number2)
 {
-Console.WriteLine($"Число {number2} больше чем {number1}");
-Console.WriteLine($"Число {number1} меньше чем {number2}");
+Console.WriteLine($"Число {number2} большее");
+Console.WriteLine($"Число {number1} меньшее");
 }
